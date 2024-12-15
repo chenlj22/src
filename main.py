@@ -56,17 +56,21 @@ config = {
     "output_feature": "Ug_vec",  # 输出特征
 
     "num_element": 1902, # 网格数
-    # TODO 网格数是否与小数据集一致？
 
     # Transolver超参数
-    "activation": "relu",  # 激活函数类型
+    "activation": "GELU",  # 激活函数类型
     "optimizer": "adam",  # 优化器类型
     "lr": 0.001,  # 学习率
     "epochs": 2000,  # 训练次数
     "batch_size": 32,  # 批量规模
     "loss": "MSE",  # 训练损失函数类型
     "metric": 'MSE',  # 验证损失函数类型
-    "layers": [9, 256, 2048, 2048, 1902*2], # MLP 结构
+    
+    # MLP 结构(固定隐藏层大小)
+    "n_input": 9,
+    "n_hidden": 512, # 隐藏层大小
+    "n_output": 1902*2,
+    "n_layers": 2, # 隐藏层层数
     
 
     # 模型名称

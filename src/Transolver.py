@@ -89,6 +89,46 @@ class MLP(nn.Module):
         return x
 
 
+'''class MLP(nn.Module):
+    """dropout全连接网络"""
+
+    def __init__(self, input_size, hidden_size, output_size, activation):
+        """
+        input_size: [int] 输入特征维度
+        hidden_size: list[int] 隐藏层维度
+        output_size: [int] 输出特征维度
+        activation: [str] 激活函数名称
+        """
+        super(MLP, self).__init__()
+        # 定义一个有序列表，包含所有隐藏层和输出层的大小
+        layers = [input_size] + list(hidden_size) + [output_size]
+
+        # 创建一个模块列表，用于存储所有全连接层
+        model_list = []
+        # 创建用于存储 dropout 层的列表
+        dropout_list = []
+        for i in range(len(layers) - 1):
+            model_list.append(nn.Linear(layers[i], layers[i + 1]))
+            dropout_list.append(nn.Dropout(p=0.5))
+
+        self.layers = nn.ModuleList(model_list)
+        # 删除掉最后一层的 dropout
+        self.dropouts = nn.ModuleList(dropout_list[:-1])
+
+        # 选择激活函数
+        self.activation = get_activation(activation)
+
+    def forward(self, x):
+        # 除最后一层外均使用激活函数
+        for layer, dropout in zip(self.layers[:-1], self.dropouts):
+            x = layer(x)
+            x = self.activation(x)
+            x = dropout(x)
+        x = self.layers[-1](x)
+        x = x.view(-1, num_element, 2)
+
+        return x'''
+
 class Transolver_block(nn.Module):
     """Transformer encoder block."""
 
