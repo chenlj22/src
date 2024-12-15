@@ -9,41 +9,6 @@ from src.post import visualization
 """
 # ----------------------------------------------------------------------------------------------------------------------
 
-'''config = {
-    # 数据相关参数
-    # "data_dir": r"..\data",  # 数据根目录，需修改为自己的data文件夹地址
-    "data_dir": r"C:\Users\26382\Desktop\2024fall\explore\Group-3-Condensor\data",
-    "train_dataset": '20241123-2d2p-poroZoneOpt-train',
-    "valid_dataset": '20241123-2d2p-poroZoneOpt-valid',
-    "test_dataset": '20241123-2d2p-poroZoneOpt-test',
-    "input_feature": "porosity_field",  # 输入特征
-    "output_feature": "Ug_vec",  # 输出特征
-
-    # Transolver超参数
-    "activation": "GELU",  # 激活函数类型
-    "optimizer": "adam",  # 优化器类型
-    "lr": 0.001,  # 学习率
-    "epochs": 2000,  # 训练次数
-    "batch_size": 32,  # 批量规模
-    "loss": "MSE",  # 训练损失函数类型
-    "metric": 'MSE',  # 验证损失函数类型
-
-    "n_layers": 1,  # embedding linear 隐藏层数量
-    "n_hidden": 256,  # embedded 特征数
-    "dropout": 0.0,  # dropout比例
-    "n_head": 8,  # 注意力头数
-    "fun_dim": 1,  # 输入特征维度
-    "out_dim": 2,  # 输出特征维度
-    "slice_num": 32,  # slice数量
-
-    "space_dim": 2,  # 空间维度
-
-    # 模型名称
-    "model": 'Transolver',
-    "model_name": "poro2Ug_transolver"  # 模型名称
-}
-'''
-
 config = {
     
     # 数据相关参数
@@ -54,11 +19,14 @@ config = {
     "test_dataset": '20241123-2d2p-poroZoneOpt-test',
     "input_feature": "porosity_field",  # 输入特征
     "output_feature": "Ug_vec",  # 输出特征
+    
+    "fun_dim": 1,  # 输入特征维度
+    "out_dim": 2,  # 输出特征维度
 
     "num_element": 1902, # 网格数
 
     # Transolver超参数
-    "activation": "GELU",  # 激活函数类型
+    "activation": "gelu",  # 激活函数类型
     "optimizer": "adam",  # 优化器类型
     "lr": 0.001,  # 学习率
     "epochs": 2000,  # 训练次数
