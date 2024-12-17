@@ -98,7 +98,7 @@ def testModel(config=None, model=None, datadict=None):
                                 'predictions': y_pred,
                                 'metrics': metrics}
 
-    update_metrics_csv(datadict)
+    update_metrics_csv(config=config,datadict=datadict)
 
     # 打印日志
     with open('log.txt', 'a+') as f:

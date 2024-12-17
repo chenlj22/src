@@ -78,7 +78,8 @@ class MLP(nn.Module):
         self.linear_post = nn.Linear(n_hidden, n_output)
         self.linears = nn.ModuleList([nn.Sequential(nn.Linear(n_hidden, n_hidden), act()) for _ in range(n_layers)])
 
-    def forward(self, x):
+    def forward(self, empty, x):
+        x = x.reshape(-1,1902)
         x = self.linear_pre(x)
         for i in range(self.n_layers):
             if self.res:
@@ -86,6 +87,7 @@ class MLP(nn.Module):
             else:
                 x = self.linears[i](x)
         x = self.linear_post(x)
+        x = x.reshape(-1,1902,2)
         return x
 
 

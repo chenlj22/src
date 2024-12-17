@@ -1,0 +1,220 @@
+
+>>> poro2Ug_MLP training time: 212.1216
+
+>>> poro2Ug_MLP best epoch: 530
+
+++++++++++++++++++++++++++++++++++++++++++++++++++
+@ MODEL : poro2Ug_MLP
+
+  INPUT FEATURE: porosity_field
+
+  PREDICT FEATURE: Ug_vec
+
+>>> MSE evaluation metrics:
+MSE: 0.155070
+
+>>> MAE evaluation metrics:
+MAE: 0.188462
+
+>>> MAPE evaluation metrics:
+MAPE: 0.258152
+
+++++++++++++++++++++++++++++++++++++++++++++++++++
+
+++++++++++++++++++++++++++++++++++++++++++++++++++
+@ MODEL : poro2Ug_MLP
+
+  INPUT FEATURE: porosity_field
+
+  PREDICT FEATURE: Ug_vec
+
+>>> MSE evaluation metrics:
+MSE: 0.155070
+
+>>> MAE evaluation metrics:
+MAE: 0.188462
+
+>>> MAPE evaluation metrics:
+MAPE: 0.258152
+
+++++++++++++++++++++++++++++++++++++++++++++++++++
+
+++++++++++++++++++++++++++++++++++++++++++++++++++
+@ MODEL : poro2Ug_MLP
+
+  INPUT FEATURE: porosity_field
+
+  PREDICT FEATURE: Ug_vec
+
+>>> MSE evaluation metrics:
+MSE: 0.155070
+
+>>> MAE evaluation metrics:
+MAE: 0.188462
+
+>>> MAPE evaluation metrics:
+MAPE: 0.258152
+
+++++++++++++++++++++++++++++++++++++++++++++++++++
+
+++++++++++++++++++++++++++++++++++++++++++++++++++
+@ MODEL : poro2Ug_MLP
+
+  INPUT FEATURE: porosity_field
+
+  PREDICT FEATURE: Ug_vec
+
+>>> MSE evaluation metrics:
+MSE: 0.155070
+
+>>> MAE evaluation metrics:
+MAE: 0.188462
+
+>>> MAPE evaluation metrics:
+MAPE: 0.258152
+
+++++++++++++++++++++++++++++++++++++++++++++++++++
+
+++++++++++++++++++++++++++++++++++++++++++++++++++
+@ MODEL : poro2Ug_MLP
+
+  INPUT FEATURE: porosity_field
+
+  PREDICT FEATURE: Ug_vec
+
+>>> MSE evaluation metrics:
+MSE: 0.155070
+
+>>> MAE evaluation metrics:
+MAE: 0.188462
+
+>>> MAPE evaluation metrics:
+MAPE: 0.258152
+
+++++++++++++++++++++++++++++++++++++++++++++++++++
+
+++++++++++++++++++++++++++++++++++++++++++++++++++
+@ MODEL : poro2Ug_MLP
+
+  INPUT FEATURE: porosity_field
+
+  PREDICT FEATURE: Ug_vec
+
+>>> MSE evaluation metrics:
+MSE: 0.155070
+
+>>> MAE evaluation metrics:
+MAE: 0.188462
+
+>>> MAPE evaluation metrics:
+MAPE: 0.258152
+
+++++++++++++++++++++++++++++++++++++++++++++++++++
+
+++++++++++++++++++++++++++++++++++++++++++++++++++
+@ MODEL : poro2Ug_MLP
+
+  INPUT FEATURE: porosity_field
+
+  PREDICT FEATURE: Ug_vec
+
+>>> MSE evaluation metrics:
+MSE: 0.155070
+
+>>> MAE evaluation metrics:
+MAE: 0.188462
+
+>>> MAPE evaluation metrics:
+MAPE: 0.258152
+
+++++++++++++++++++++++++++++++++++++++++++++++++++
+
+++++++++++++++++++++++++++++++++++++++++++++++++++
+@ MODEL : poro2Ug_MLP
+
+  INPUT FEATURE: porosity_field
+
+  PREDICT FEATURE: Ug_vec
+
+>>> MSE evaluation metrics:
+MSE: 0.155070
+
+>>> MAE evaluation metrics:
+MAE: 0.188462
+
+>>> MAPE evaluation metrics:
+MAPE: 0.258152
+
+++++++++++++++++++++++++++++++++++++++++++++++++++
+
+++++++++++++++++++++++++++++++++++++++++++++++++++
+@ MODEL : poro2Ug_MLP
+
+  INPUT FEATURE: porosity_field
+
+  PREDICT FEATURE: Ug_vec
+
+>>> MSE evaluation metrics:
+MSE: 0.155070
+
+>>> MAE evaluation metrics:
+MAE: 0.188462
+
+>>> MAPE evaluation metrics:
+MAPE: 0.258152
+
+++++++++++++++++++++++++++++++++++++++++++++++++++
+
+++++++++++++++++++++++++++++++++++++++++++++++++++
+@ MODEL : poro2Ug_MLP
+
+  INPUT FEATURE: porosity_field
+
+  PREDICT FEATURE: Ug_vec
+
+>>> MSE evaluation metrics:
+MSE: 0.155070
+
+>>> MAE evaluation metrics:
+MAE: 0.188462
+
+>>> MAPE evaluation metrics:
+MAPE: 0.258152
+
+++++++++++++++++++++++++++++++++++++++++++++++++++
+
+++++++++++++++++++++++++++++++++++++++++++++++++++
+@ MODEL : poro2Ug_MLP
+
+  INPUT FEATURE: porosity_field
+
+  PREDICT FEATURE: Ug_vec
+
+>>> MSE evaluation metrics:
+MSE: 0.155070
+
+>>> MAE evaluation metrics:
+MAE: 0.188462
+
+>>> MAPE evaluation metrics:
+MAPE: 0.258152
+
+++++++++++++++++++++++++++++++++++++++++++++++++++
+
+++++++++++++++++++++++++++++++++++++++++++++++++++
+@ MODEL : poro2Ug_MLP
+
+  INPUT FEATURE: porosity_field
+
+  PREDICT FEATURE: Ug_vec
+
+>>> MSE evaluation metrics:
+MSE: 0.155070
+
+>>> MAE evaluation metrics:
+MAE: 0.188462
+
+>>> MAPE evaluation metrics:
+MAPE: 0.258152
+
+++++++++++++++++++++++++++++++++++++++++++++++++++
