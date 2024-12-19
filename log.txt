@@ -218,3 +218,47 @@ MAE: 0.188462
 MAPE: 0.258152
 
 ++++++++++++++++++++++++++++++++++++++++++++++++++
+
+>>> poro2phi_air_MLP training time: 171.7145
+
+>>> poro2phi_air_MLP best epoch: 1675
+
+++++++++++++++++++++++++++++++++++++++++++++++++++
+@ MODEL : poro2phi_air_MLP
+
+  INPUT FEATURE: porosity_field
+
+  PREDICT FEATURE: phi_air
+
+>>> MSE evaluation metrics:
+MSE: 0.000017
+
+>>> MAE evaluation metrics:
+MAE: 0.000602
+
+>>> MAPE evaluation metrics:
+MAPE: 0.112527
+
+++++++++++++++++++++++++++++++++++++++++++++++++++
+
+>>> poro2pressure_MLP training time: 170.7515
+
+>>> poro2pressure_MLP best epoch: 827
+
+++++++++++++++++++++++++++++++++++++++++++++++++++
+@ MODEL : poro2pressure_MLP
+
+  INPUT FEATURE: porosity_field
+
+  PREDICT FEATURE: pressure
+
+>>> MSE evaluation metrics:
+MSE: 1.479038
+
+>>> MAE evaluation metrics:
+MAE: 0.980996
+
+>>> MAPE evaluation metrics:
+MAPE: 0.000035
+
+++++++++++++++++++++++++++++++++++++++++++++++++++

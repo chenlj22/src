@@ -18,10 +18,10 @@ config = {
     "valid_dataset": '20241123-2d2p-poroZoneOpt-valid',
     "test_dataset": '20241123-2d2p-poroZoneOpt-test',
     "input_feature": "porosity_field",  # 输入特征
-    "output_feature": "Ug_vec",  # 输出特征
+    "output_feature": "pressure",  # 输出特征
     
     "fun_dim": 1,  # 输入特征维度
-    "out_dim": 2,  # 输出特征维度
+    "out_dim": 1,  # 输出特征维度
 
     "num_element": 1902, # 网格数
 
@@ -37,18 +37,18 @@ config = {
     # MLP 结构(固定隐藏层大小)
     "n_input": 1902,
     "n_hidden": 2048, # 隐藏层大小
-    "n_output": 1902*2,
+    "n_output": 1902,
     "n_layers": 2, # 隐藏层层数
     
 
     # 模型名称
     "model": 'MLP',
-    "model_name": "poro2Ug_MLP"  # 模型名称
+    "model_name": "poro2pressure_MLP"  # 模型名称
 }
 
 
 """场景控制"""
-TRAIN = False  # 训练
+TRAIN = True  # 训练
 TEST = True  # 预测
 # ----------------------------------------------------------------------------------------------------------------------
 

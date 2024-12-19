@@ -87,7 +87,8 @@ class MLP(nn.Module):
             else:
                 x = self.linears[i](x)
         x = self.linear_post(x)
-        x = x.reshape(-1,1902,2)
+        x = x.reshape(-1,1902,1)
+        # x = x.reshape(-1,1902,2)
         return x
 
 
